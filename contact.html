@@ -3,42 +3,61 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 </head>
-	<header><h1>Michael Ashe<h1></header>
-
-		<section id="buttons">
-			<button>About</button>
-			<button>Portfolio</button>
-			<button>Contact</button>
-		</section>
 
 <body>
 
-	<h1>Contact</h1>
-		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-	<div class="row">
-		<label for="name">Your name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="email">Your email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	</div>
-	<div class="row">
-		<label for="message">Your message:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	</div>
-	<input id="submit_button" type="submit" value="Send email" />
-	</form>	
+	<header><h1>Michael Ashe<h1></header>
 
-	<h3>Connect with Me</h3>
-		<section id="SocialButtons">
-			<button id="ghbutton"><img src="assets/images/githublogo.png"></button>
-			<button id="linkedinbutton"><img src="assets/images/linkedin.png"></button>
-			<button id="stackoverflowbutton"><img src="assets/images/stackoverflow.png"></button>
+		<section id="buttons">
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="#">Contact</a>
 		</section>
 
+
+<hr id="topHR">
+	
+<section id="container">
+
+	<div id="blockAboutMe">	
+	
+		<h2>Contact</h2>
+
+		<hr id="middleHR">		
+		
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+		<div class="row">
+			<label for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+		</div>
+		<div class="row">
+			<label for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+		</div>
+		<div class="row">
+			<label for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+		</div>
+		<input id="submit_button" type="submit" value="Submit" />
+		</form>	
+	</div>
+</section>	
+
+	<div id="socialsec2">
+
+	<h3>Connect with Me</h3>
+		<hr id="connectHR">
+		<ul id="SocialButtons">
+			<li><a id="a2" href="https://github.com/michaelashe"><img src="assets/images/githublogo.png"></a></li>
+			<li><a id="a2" href="https://www.linkedin.com/in/michael-ashe-b33b3a69"><img src="assets/images/linkedin.png"></a></li>
+			<li><a id="a2" href="https://stackoverflow.com/users/8507026/michael-ashe?tab=profile"><img src="assets/images/stackoverflow.png"></a></li>
+		</ul>
+
+	</div>	
+
+	<hr id="footerHR">
 	<footer>&copy;Copyright 2017 Michael Ashe</footer>
 
 </body>
